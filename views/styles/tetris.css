@@ -11,15 +11,30 @@
 	outline:orange dotted thin;
 	height:25px;
 	width:100%;
+	z-index:-1;
 }
 .blank{
 	outline:white dotted thin;
 	width:25px;
 	height:99%;
 	display:inline-block;
+	z-index:-1;
 }
 .filled_shape{
 	background-color: orange;
 	width: 25px;
 	height:25px;
+	z-index:99;
+}
+.l{
+	background-color:orange;
+	width:25px;
+	height:25px;
+}
+.off_board{
+	outline: red dotted thin;
+	width:25px;
+	height:25px;
+	background-color:white;
+	display:inline-block;
 }
