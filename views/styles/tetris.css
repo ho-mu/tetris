@@ -1,21 +1,25 @@
 #board{
 	width:250px;
 	height:500px;
-	outline: 1px solid black;
+	outline: 1px solid white;
 	margin: 0 auto;
-	border-top:10%;
-
+	margin-top:10%;
+	background-color:black;
+	z-index:-1;
 }
 .w3-row{
-	outline:red dotted thin;
-	
+	outline:orange dotted thin;
 	height:25px;
 	width:100%;
 }
-.w3-col{
-	outline:black dotted thin;
+.blank{
+	outline:white dotted thin;
 	width:25px;
 	height:99%;
 	display:inline-block;
-
+}
+.filled_shape{
+	background-color: orange;
+	width: 25px;
+	height:25px;
 }
